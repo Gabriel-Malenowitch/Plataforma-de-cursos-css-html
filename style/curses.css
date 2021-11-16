@@ -1,0 +1,42 @@
+.container{
+    height: auto;
+    width: auto;
+    padding: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.divRow{
+    display: flex;
+}
+.curse{
+    display: inline;
+    margin: 20px;
+}
+.curse:hover{
+  background-color: #350d4b;
+  border-radius: 5px;
+}
+.tumbnail{
+    height: 120px;
+    border-radius: 2px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #a228e4;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #681a92;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #380653;
+  }

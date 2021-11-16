@@ -1,0 +1,40 @@
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    overflow-y: hidden;
+}
+
+#container{
+    width: 500px;
+    height: auto;
+    padding-bottom: 200px;
+}
+
+button, .item--upload{
+    display: block;
+    margin: 15px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-weight: 600;
+    background-color: tomato;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+#save{
+    background-color: yellowgreen;
+}
+
+.item--upload{
+    color: #222;
+    height: 30px;
+    padding: 20px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
